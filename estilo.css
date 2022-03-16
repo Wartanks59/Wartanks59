@@ -137,17 +137,39 @@ body{
 	width: 100%;
 	height: 100vh;
 	background: url(imagenes/fondo1.jpg);
-	position: absolute;
+	position: relative;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 
 }
+#section_2{
+	width: 100%;
+	height: 100px;
+	background: #12192e;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+.texto_pie{
+	background: ;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 35px 0;
+	font-family: 'Black Ops One', cursive;
+	margin: auto;
+}
+
 .caja1{
 	width: 1100px;
 	height: 600px;
 	background: ;
 	margin:0 130px;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center; 
 	align-content: center; 
 	position: absolute;
@@ -283,7 +305,7 @@ h1{
 	color: white;
 	text-align: center;
 	line-height: 30px;
-	background:;
+	background: ;
 }
 .logop{
 	width: 400px;
@@ -295,22 +317,22 @@ h1{
 .text-boton{
 	width: 600px;
 	height: 200px;
-	background: ;
+	background:  ;
 	font-size: 20px;
 	margin: auto;
 	text-align: center;
 	font-family: 'Black Ops One', cursive;
 }
 .fondo{
-	width: 100%;
-	height: 100vh;
+	width: 100vh;
+	height: 1200px;
 	background:;
 	position: ;
 	opacity: .5;
 }
 #section_1{
-	width: 100%;
-	height: 100vh;
+	width: 100vh;
+	height: 1200px;
 	background: url(imagenes/fondo1.jpg);
 	position: ;
 	display: flex;
@@ -328,5 +350,14 @@ h1{
 	animation-name: animaredes;
 	animation-duration: 2s
 	  }
-
-  }
+#section_2{
+	width: 100vh;
+	height: 100px;
+	background: #12192e;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	 
+   }
+}
