@@ -75,7 +75,7 @@ body{
 	height: 60px
 }
 
-@media (max-width: 850px) {
+@media screen and (max-width: 900px) {
 	.checkbtn{
 		display: block;
 	}
@@ -103,7 +103,7 @@ body{
 		color: black;
 	}
 	.menu{
-		left: -800px;
+		left: -900px;
 
 	}
 	#check:checked + .menu{ 
@@ -280,10 +280,10 @@ h1{
 .face:hover{
 	opacity: 1;
 }
-@media (max-width: 850px){
+@media screen and (max-width: 800px){
 	.caja1{
 	width: 100%;
-	height: 400px;
+	height: 350px;
 	background: ;
 	display: block;
 	flex-wrap: wrap;
@@ -315,7 +315,7 @@ h1{
 	color: white;
 }
 .text-boton{
-	width: 600px;
+	width: 300px;
 	height: 200px;
 	background:  ;
 	font-size: 20px;
@@ -325,18 +325,20 @@ h1{
 }
 .fondo{
 	width: 100vh;
-	height: 1200px;
+	height: 1900px;
 	background:;
 	position: ;
 	opacity: .5;
 }
 #section_1{
 	width: 100vh;
-	height: 1200px;
+	height: 1900px;
 	background: url(imagenes/fondo1.jpg);
+	background-size: cover;
 	position: ;
 	display: flex;
 	align-items: center;
+
 
 }
 .redes{
